@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ปรึกษาจิตวิทยาออนไลน์</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ปรึกษาจิตวิทยาออนไลน์</h1>
+        <form id="consultationForm">
+            <label for="name">ชื่อของคุณ:</label>
+            <input type="text" id="name" name="name" placeholder="กรุณากรอกชื่อ" required><br>
+
+            <label for="email">อีเมล์ของคุณ:</label>
+            <input type="email" id="email" name="email" placeholder="กรุณากรอกอีเมล์" required><br>
+
+            <label for="message">คำถามหรือปัญหา:</label><br>
+            <textarea id="message" name="message" rows="4" placeholder="กรุณากรอกคำถามของคุณ" required></textarea><br>
+
+            <button type="submit">ส่งคำขอปรึกษา</button>
+        </form>
+        <div id="responseMessage"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
